@@ -1,0 +1,21 @@
+<table>
+	<thead>
+     <th>name</th>
+	 <th>date</th>
+	 <th>readiness</th>
+	 <th>autonomy</th>
+	 <th>ratings</th>
+	</thead>
+	<tbody>
+    {{#each projects}}
+     <tr>
+        <td>{{name}}</td>
+        <td>{{formatDate date day="numeric" month="long" year="numeric"}}</td>
+		<td>{{readiness}}</td>
+	    <td>{{autonomy}}</td>
+		<td>{{ratings}}</td>
+	 </tr>
+    {{/each}}
+	</tbody>
+</table>
+
