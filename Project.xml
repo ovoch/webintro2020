@@ -2,4 +2,5 @@
 <client name="Mike">
     <progress autonomy="50" readiness="30"/>
     <success rating="3"/>
+    <date year="2020" month="04" day="27"/>
 </client>
